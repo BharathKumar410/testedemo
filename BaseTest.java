@@ -52,7 +52,7 @@ public class BaseTest {
 		webdriver.manage().deleteAllCookies();
 	}
 	
-	
+	System.out.println("hello");
 	/*
 	 * driver  is not null close the browser
 	 */
