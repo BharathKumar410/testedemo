@@ -20,6 +20,8 @@ public class Demo {
 		driver.findElement(By.id("identifierId")).sendKeys("bharath14741@gmail.com");
 		Thread.sleep(5000);
 		driver.close();
+		
+		System.out.println("hello");
 	}
 
 }
