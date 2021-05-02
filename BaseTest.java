@@ -51,8 +51,6 @@ public class BaseTest {
 		webdriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		webdriver.manage().deleteAllCookies();
 	}
-	
-	System.out.println("hello");
 	/*
 	 * driver  is not null close the browser
 	 */
@@ -62,6 +60,7 @@ public class BaseTest {
 		if(webdriver!=null) {
 			webdriver.close();
 		}else {
+			System.out.println("hello");
 			System.out.println("driver pointing to null...");
 		}
 	}
