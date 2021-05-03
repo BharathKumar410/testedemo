@@ -9,20 +9,11 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.Test;
 
 public class Demo {
-	
-	@Test
-	public void launchBrowser() throws InterruptedException {
-		System.setProperty("webdriver.opera.driver", "D:\\workspace\\selenium\\Drivers\\operadriver.exe");
-		WebDriver driver=new OperaDriver();
-		driver.get("https://www.gmail.com");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	public static void main(String[] args) {
 		
-		driver.findElement(By.id("identifierId")).sendKeys("bharath14741@gmail.com");
-		Thread.sleep(5000);
-		driver.close();
-		
+		System.out.println("practice");
 		System.out.println("hello");
-	}
+	
+	}	
 
 }
