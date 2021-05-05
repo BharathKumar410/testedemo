@@ -9,8 +9,10 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.Test;
 
 public class Demo {
-	public static void main(String[] args) {
+	@Test
+	public void run() {
 		
+		System.out.println("gejhjygdjf");
 		System.out.println("practice");
 		System.out.println("hello");
 		System.out.println("TTTTT");
